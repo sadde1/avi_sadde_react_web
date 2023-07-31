@@ -1,0 +1,25 @@
+@import "../res/colors.css";
+@import "../res/dimensions.css";
+
+.cvcolor {
+  color: var(--cv_tint);
+}
+
+.cvifax {
+  color: var(--red);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cvltr {
+  direction: ltr;
+}
+
+.cvmyrecord {
+  color: var(--caribbeanGreen);
+}
+
+.cvfloat { 
+  float: inline-start;
+} 
+ 
+ 

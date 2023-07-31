@@ -1,0 +1,6 @@
+@import "../res/colors.css";
+@import "../res/dimensions.css";
+
+.contactcolor {
+  color: var(--contact_tint);
+}

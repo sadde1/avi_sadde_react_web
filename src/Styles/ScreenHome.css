@@ -1,0 +1,43 @@
+@import "../res/colors.css";
+@import "../res/dimensions.css";
+
+html {
+  background-color: var(--black);
+}
+
+.homemain {
+  width: 100%;
+  height: 100%;
+}
+
+.homebutton {
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  position: relative;
+  border: none;
+}
+
+.homeimage {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.hometext {
+  color: var(--home_tint);
+}
+
+.homespan {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+  text-shadow: var(--text_shadow) 2px 2px 3px;
+}

@@ -1,0 +1,8 @@
+:root {
+  --titleHeight: 24px;
+  --sectionHeight: 22px;
+  --taskHeight: 20px;
+  --contentHeight: 18px;
+  --taskPadding: 15px;
+  --sectionPadding: 15px;
+}

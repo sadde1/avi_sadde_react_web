@@ -1,0 +1,85 @@
+.image-gallery-description {
+  color: var(--gallery_tint) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  text-shadow: -2px 2px 3px rgba(20, 10, 40, 0.98) !important;
+  background: rgba(0, 0, 0, 0.08) !important;
+  border-radius: 25px;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  padding: 3px 0;
+  display: inline-block;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.ig-header {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ig .image-gallery {
+  margin: 10;
+  width: 100%;
+}
+
+.ig-buttons li {
+  display: block;
+}
+
+.ig-interval-input-group {
+  display: table;
+}
+
+.ig-interval-label {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 3px solid #ccc;
+  border-right: none;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ig-interval-input {
+  -webkit-appearance: none;
+  display: table-cell;
+  margin: 0;
+  padding: 9px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 3px solid #ccc;
+  background: #fff;
+  width: 100%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+input.ig-interval-input {
+  width: 65px;
+}
+
+.ig-checkboxes {
+  margin-top: 10px;
+}
+
+.ig-checkboxes li {
+  display: block;
+}
+

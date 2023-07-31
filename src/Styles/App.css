@@ -1,0 +1,85 @@
+@import "../res/colors.css";
+@import "../res/dimensions.css";
+
+.accordion-item {
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0 var(--black);
+  background-color: transparent !important;
+}
+
+.accordion-button {
+  --bs-accordion-btn-icon: url("../assets/images/Common/ic_expand_more_white_24dp.png");
+  --bs-accordion-btn-active-icon: url("../assets/images/Common/ic_expand_more_white_24dp.png");
+  background-color: transparent !important;
+  font-size: calc(10px + 2vmin);
+}
+.accordion-button::after {
+  margin-inline-start:0!important;
+  margin-inline-end:auto;
+}
+
+.appmain {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-size: calc(10px + 2vmin);
+  flex: auto;
+  display: flex;
+}
+
+.apptitle {
+  padding-left: var(--sectionPadding);
+  padding-right: var(--sectionPadding);
+  font-weight: 600;
+  font-size: var(--titleHeight);
+}
+
+.blend {
+  mix-blend-mode: screen;
+}
+
+.linkto {
+  color: var(--link_text);
+  text-decoration: underline;
+}
+
+.imgbgr {
+  position: fixed; 
+  left: 0; 
+  top: 0;
+  min-width: 100%;
+  max-height: 100%;
+  opacity: 0.06;
+}
+
+.z_back
+{
+  z-index: -1;
+}
+
+.z_front {
+  z-index: 6;
+}
+
+.textbold {
+  font-weight: bold;
+}
+
+.section {
+  padding-left: var(--sectionPadding);
+  padding-right: var(--sectionPadding);
+  font-size: var(--sectionHeight);
+}
+
+.content {
+  color: var(--avi_almost_white);
+  font-size: var(--contentHeight);
+  font-weight: 100;
+}
+
+.task {
+  color: var(--avi_almost_white);
+  padding-left: var(--taskPadding);
+  padding-right: var(--taskPadding);
+  font-size: var(--taskHeight);
+}

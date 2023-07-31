@@ -1,0 +1,23 @@
+@import "../res/colors.css";
+@import "../res/dimensions.css";
+
+
+.linkssection {
+  color: var(--links_tint);
+  padding-left: var(--sectionPadding);
+  padding-right: var(--sectionPadding);
+  font-size: var(--sectionHeight);
+}
+
+.linkslinkNOTYET {
+  color: var(--capeCod3Alpha90);
+  text-decoration: underline;
+}
+.linksgap {
+  padding-inline-end: var(--taskPadding);
+}
+
+
+
+ 
+ 
